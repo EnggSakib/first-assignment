@@ -287,6 +287,14 @@ button:hover
     background-color: #ffeded;
 } */
 
+#second-donate {
+    text-align: center;
+}
+
+.any-amount {
+    text-align: center;
+}
+
 .google-font {
     font-family: 'Poppins', sans-serif;
 }
