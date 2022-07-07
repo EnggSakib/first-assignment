@@ -155,7 +155,7 @@
 }
 
 .feature-text {
-    padding: 30px;
+    padding: 50px;
 }
 
 .feature-image {
@@ -216,83 +216,34 @@
     margin: 20px;
 }
 
-/* .list
-{
-    display: flex;
-    width: 500px;
-    gap: 20px;
-    margin: 0 auto;
-    flex: 1 1 0;
-}
 
-
-.listItem
-{
-    list-style-type: none;
-    background-color: #f9f9f9;
-    font-weight: 800;
-    font-size: larger;
-    max-height: 90px;
-    width: 100px;
-    padding: 15px 10px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.blistitem
-{
-    list-style-type: none;
-    background-color: #f9f9f9;
-    font-weight: 800;
-    text-align: center;
-    border-radius: 5px;
-}
-
-
-li:hover
-{
-    border: 2px solid #ff5959;
-
-    background-color: #ffeded;
-}
-
-
-.blist
-{
-    display: flex;
-    justify-content: space-around;
-}
-
-.list-container
-{
-    width: 700px;
-    margin: 0 auto;
-}
-
-button
-{
-    padding: 5px 10px;
-    border: none;
-    width: 100px;
-    height: 80px;
-    font-size: x-large;
-    font-weight: 600;
-}
-
-
-button:hover
-{
-    border: 1px solid #ff5959;
-    color: #ff5959;
-    background-color: #ffeded;
-} */
 
 #second-donate {
     text-align: center;
 }
 
-.any-amount {
+#any-amount {
+    padding: 10px;
     text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.recent {
+    text-align: center;
+    padding: 5px;
 }
 
 .google-font {
@@ -304,9 +255,10 @@ button:hover
 }
 
 .feature-image-container {
-    width: 100%;
+    width: 90%;
+    padding: 40px;
 }
 
 .feature-image-container img {
-    width: 100%;
+    width: 600px;
 }
